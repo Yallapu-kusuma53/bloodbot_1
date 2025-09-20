@@ -29,10 +29,10 @@ TWILIO_AUTH_TOKEN = os.getenv("TWILIO_AUTH_TOKEN")
 TWILIO_PHONE_NUMBER = os.getenv("TWILIO_PHONE_NUMBER")
 
 # ------------------ MongoDB Atlas ------------------
-MONGO_USERNAME = os.getenv("MONGO_USERNAME", "kyallapu6")
-MONGO_PASSWORD = os.getenv("MONGO_PASSWORD", "1LPlRaHHcwDdFQrG")
+MONGO_USERNAME = os.getenv("MONGO_USERNAME", "")
+MONGO_PASSWORD = os.getenv("MONGO_PASSWORD", "")
 MONGO_DB_NAME = os.getenv("MONGO_DB_NAME", "bloodbot")
-MONGO_CLUSTER_URL = os.getenv("MONGO_CLUSTER_URL", "cluster0.yzwtobi.mongodb.net")
+MONGO_CLUSTER_URL = os.getenv("MONGO_CLUSTER_URL", "")
 MONGO_SRV = os.getenv("MONGO_SRV", "true").lower() == "true"
 
 # Encode username & password safely
