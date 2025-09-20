@@ -29,7 +29,6 @@ This ensures fast, efficient, and location-based blood donation using automated 
 <img width="2000" height="990" alt="image" src="https://github.com/user-attachments/assets/b4d3bb54-2dd0-4c50-8262-67aefc610be8" />
  <img width="453" height="855" alt="image" src="https://github.com/user-attachments/assets/1cee742c-00c7-416c-b5dc-17a3b43986a9" />
 <img width="535" height="919" alt="image" src="https://github.com/user-attachments/assets/25174c01-4048-484f-9081-81b2b9a772e2" />
-<img width="501" height="752" alt="image" src="https://github.com/user-attachments/assets/c0982d8a-3be9-4d5c-b22a-f4be74d1746a" />
 <img width="1246" height="402" alt="image" src="https://github.com/user-attachments/assets/41c459b5-111a-4b26-8454-7ef339f19fb5" />
 <img width="1817" height="786" alt="image" src="https://github.com/user-attachments/assets/bf5ce83e-d82d-49e9-9455-dd0015d709d7" />
 <img width="417" height="920" alt="image" src="https://github.com/user-attachments/assets/b056ac09-d31a-49c4-a52e-383b38dbd90a" />
@@ -104,21 +103,15 @@ http://127.0.0.1:3000
 
 📂 Project Structure
 bloodbot/
-├── main.py   # Flask app entry point
+ <img width="403" height="685" alt="Screenshot 2025-09-20 105917" src="https://github.com/user-attachments/assets/bdfa75a6-e243-4740-a450-445dbb12cf02" />
 
-├── routes.py           # Flask routes & endpoints
-├── db_utils.py         # MongoDB connection & helper functions
-├── bot_handlers.py     # Telegram bot handlers
-├── templates/          # HTML templates
-│   ├── hospital_register.html
-│   └── hospital_login.html
-├── static/             # CSS & JS files
-├── config.py           # Configurations & logging
-└── requirements.txt    # Python dependencies
 
 💡 Future Enhancements
 
 -> Real-time donor availability map.
+
 -> Dashboard analytics for hospital & donor performance.
+
 -> Multi-language support for broader accessibility.
+
 -> Emergency request prioritization and alerts.
