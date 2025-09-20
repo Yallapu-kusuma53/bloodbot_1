@@ -90,19 +90,23 @@ This ensures fast, efficient, and location-based blood donation using automated 
 Create a .env file with:
 
 BOT_TOKEN=<your_telegram_bot_token>
+
 OTP_BOT_TOKEN=<your_otp_bot_token>
+
 MONGODB_URI=<your_mongodb_atlas_uri>
+
 CLOUDINARY_CLOUD_NAME=<cloud_name>
+
 CLOUDINARY_API_KEY=<api_key>
+
 CLOUDINARY_API_SECRET=<api_secret>
+
 WEBHOOK_URL=<your_ngrok_or_production_url>/webhook
 
-Access the web app at:
-
-http://127.0.0.1:3000
-
 📂 Project Structure
-bloodbot/
+
+
+
  <img width="403" height="685" alt="Screenshot 2025-09-20 105917" src="https://github.com/user-attachments/assets/bdfa75a6-e243-4740-a450-445dbb12cf02" />
 
 
